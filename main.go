@@ -6,7 +6,7 @@ type ListNode struct {
 }
 
 type List struct {
-	head *ListNode
+	Head *ListNode
 }
 
 func ListToArr(ln *ListNode) []int {
