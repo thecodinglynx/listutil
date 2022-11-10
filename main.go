@@ -25,15 +25,15 @@ func ArrToList(input []int) *ListNode {
 	for _, v := range input {
 		res.Insert(v)
 	}
-	return res.head
+	return res.Head
 }
 
 func (l *List) Insert(val int) *List {
 	entry := &ListNode{Val: val, Next: nil}
-	if l.head == nil {
-		l.head = entry
+	if l.Head == nil {
+		l.Head = entry
 	} else {
-		p := l.head
+		p := l.Head
 		for p.Next != nil {
 			p = p.Next
 		}
