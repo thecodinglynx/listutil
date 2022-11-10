@@ -1,3 +1,3 @@
-module lynxcoding.com/listutil
+module github.com/thecodinglynx/listutil
 
 go 1.18
